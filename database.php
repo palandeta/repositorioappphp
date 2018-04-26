@@ -26,7 +26,8 @@ class Database
         try 
         {
           //self::$cont =  new PDO( "mysql:host=".self::$dbHost.";"."dbname=".self::$dbName, self::$dbUsername, self::$dbUserPassword);  
-		self::$cont =  new PDO( "pgsql:host=$dbHost;port=5432;dbname=$dbName;user=$dbUsername;password=$dbUserPassword");
+		self::$cont =  new PDO( "pgsql:host=".self::$dbHost.";"."port=5432;dbname=".self::$dbName.";"."user=".self::$dbUsername.";"."password=".self::$dbUserPassword);
+		
         }
         catch(PDOException $e) 
         {
