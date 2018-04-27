@@ -8,7 +8,7 @@ class Database
 	private static $dbUserPassword = 'ATCoch59681';
 	*/
 	private static $dbName = 'sampledb' ; 
-	private static $dbHost = '10.129.68.32' ;
+	private static $dbHost = '10.129.19.241' ;
 	private static $dbUsername = 'pablo';
 	private static $dbUserPassword = 'Pablolandeta2018';
 	
